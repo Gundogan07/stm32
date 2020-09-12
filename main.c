@@ -107,6 +107,7 @@ int main(void)
     /* USER CODE BEGIN 3 */
 
 	  sayi++;
+	  int gokhan=0;
 	  sprintf(data, "\f %d  \n \r",sayi);
 	  HAL_UART_Transmit(&huart1,(uint8_t*)data,strlen(data),1000);   //adres,adres icerigi,data_uzunlugu,süre
 	  HAL_Delay(1000);
